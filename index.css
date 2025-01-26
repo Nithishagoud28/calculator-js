@@ -24,6 +24,7 @@ input{
     border: 2px solid;
     padding: 25px;
     text-align: center;
+    background-color: black;
 
 }
 button:hover{
