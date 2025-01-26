@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1 id="dis">CALCULATOR</h1>
-    <div class="md">
+    <div class="md" id="calculator">
         <input type="text" id="display">
         <div>
             <button onclick="allclear(event)">AC</button>
@@ -39,7 +39,7 @@
             <button value="00" onclick="calc(event)">00</button>
             <button value="0" onclick="calc(event)">0</button>
             <button value="." onclick="calc(event)">.</button>
-            <button value="=" onclick="calc(event)">=</button>
+            <button value="=" onclick="my_evaluate(event)">=</button>
         </div>
     </div>
 </body>
